@@ -1,5 +1,7 @@
 import React from 'react';
 import Feature from './Feature';
+import './Form.css';
+
 
 export default class Form extends React.Component {
 

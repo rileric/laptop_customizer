@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './SummaryOption.css';
 
 export default class SummaryOption extends React.Component {
 

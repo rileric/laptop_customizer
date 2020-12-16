@@ -1,6 +1,8 @@
 import React from 'react';
 import SummaryOption from './SummaryOption';
 import SummaryTotal from './SummaryTotal';
+import './Summary.css';
+
 
 export default class Summary extends React.Component {     
 

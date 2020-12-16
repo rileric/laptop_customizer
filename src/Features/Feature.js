@@ -1,13 +1,12 @@
 import React from 'react';
 import FeatureItem from './FeatureItem';
+import './Feature.css';
 
 export default class Feature extends React.Component {
 
     render(props) {
         const features = Object.keys(this.props.features).map((feature, idx) => {
             const featureHash = feature + '-' + idx;
-            console.log(feature);
-            console.log(this.props.features[feature]);
             // Feature
             return (
               <fieldset className="feature" key={featureHash}>
